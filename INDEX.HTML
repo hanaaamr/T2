@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tempp.css">
+
+</head>
+<body>
+        
+    <div class="card">
+
+        <div class="green-top"> 
+        </div>
+        
+            <div class="cont">
+
+                <div class="img-left">     
+                    <img src="TTT.png">
+                    <p class="pimg"> Celcius to Farenheit conversion </p>
+                </div>
+
+                <form class="right" onsubmit="return false;" >
+                    <p id="temp"> Temperature</p>
+                    <label class="tt"> Celsius</label> 
+                    <input class="in" type="text" id="celsius"/>
+                    <button id="conv" onclick="ConvertTemp()"> Convert</button>
+                    <input class="in" type="text" id="f"/>
+                    <label class="tt"> Farenheit</label> 
+                    <div class="tt">To convert celsius to farenheit yourself, use this for mula replacing the 'C' with your temperature in celsius:(C x 9/5)+32</div>
+                </form>
+
+            </div>
+
+    </div>
+    
+    <script src="temppp.js"></script>
+
+</body>
+</html>
